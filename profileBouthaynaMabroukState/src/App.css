@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+header {
+	position:relative;
+	left:0;
+	top:0;
+	width:100%;
+	min-height:120px;
+	padding:50px 0;
+	color:#fff;
+ background: white url(./bg.jpg) no-repeat center center;
+	margin-bottom:30px;
+}
+
+header .logo {
+	clear:both;
+    display:block;
+	text-align:center;
+    padding-bottom:10px;
+}
+
+header h1 {
+    font-weight:300;
+    font-size:30px;
+    color:#eee;	
+	letter-spacing:2px;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0 !important;
+	padding-bottom:25px;
+}
+ @media screen and (max-width: 800px) {
+
+.contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+      align-items: center;
+	box-shadow:0 5px 10px 0 #afaead;
+	transition:box-shadow .2s ease 0s;
+  border-radius:6px;
+border: 2px solid rgb(138 132 132 / 15%);
+	overflow:hidden;
+width:80%;
+  padding:40px;
+   margin-left: auto;
+    margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+ .contain:hover {
+-webkit-transform: scale(1.1);
+	transform: scale(1.1);}}
+ @media screen and (min-width: 800px) {
+
+.contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+      align-items: center;
+	box-shadow:0 5px 10px 0 #afaead;
+	transition:box-shadow .2s ease 0s;
+  border-radius:6px;
+border: 2px solid rgb(138 132 132 / 15%);
+	overflow:hidden;
+    width: 34%;
+
+  padding:40px;
+   margin-left: auto;
+    margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+ .contain:hover {
+-webkit-transform: scale(1.1);
+	transform: scale(1.1);}}
+
+#btn{
+  width: 100px;
+  height: 50px;
+  background: #f42d7a;
+  color: #f1f1f1;
+  text-align: center;
+  z-index: 999;
+  transition: .6s linear;
+  border-radius: 40px;
+  font-size: 22px;
+  margin-left: 50px;
+     padding-top: 5px;}
+
+
+.rounded-circle{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:100px;
+    height:100px;
+
+     margin-left: auto;
+    margin-right: auto;
+}
+.img-r{
+    width: 100px;
+}
+.col-xs-7 .rounded-circle {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.contain:hover .rounded-circle {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
